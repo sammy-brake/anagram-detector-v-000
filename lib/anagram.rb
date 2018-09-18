@@ -14,7 +14,7 @@ class Anagram
      if  @word.split.sort == test.split.sort 
       @@anagram_array << test 
     else 
-      []
+    
      end 
         
 
