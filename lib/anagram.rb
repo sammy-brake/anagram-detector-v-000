@@ -15,9 +15,9 @@ class Anagram
       anagram_array << test 
    
      end 
-      
+       anagram_array
     end 
-    anagram_array
+   
   end
   
 end 
