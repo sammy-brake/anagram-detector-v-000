@@ -13,6 +13,6 @@ class Anagram
       @@anagram_array << test 
      end 
     end 
-    @@anagram_array
   end 
+  @@anagram_array
 end 
