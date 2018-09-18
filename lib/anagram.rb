@@ -16,7 +16,7 @@ class Anagram
     else 
       []
      end 
-          binding.pry 
+        
 
      @@anagram_array
     end 
