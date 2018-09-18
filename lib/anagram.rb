@@ -13,8 +13,9 @@ class Anagram
     array.collect do |test|
      if  @word.split.sort == test.split.sort 
       @@anagram_array << test 
-     binding.pry 
      end 
+          binding.pry 
+
      @@anagram_array
     end 
   end
