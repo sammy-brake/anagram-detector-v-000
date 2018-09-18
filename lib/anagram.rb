@@ -1,4 +1,6 @@
 # Your code goes here!
+
+require "pry"
 class Anagram 
   attr_accessor :word 
   @@anagram_array = []
@@ -11,6 +13,7 @@ class Anagram
     array.collect do |test|
      if  @word.split.sort == test.split.sort 
       @@anagram_array << test 
+      binding.pry 
      end 
      @@anagram_array
     end 
