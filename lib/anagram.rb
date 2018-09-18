@@ -12,7 +12,8 @@ class Anagram
      if  @word.split.sort == test.split.sort 
       @@anagram_array << test 
      end 
+     @@anagram_array
     end 
-  end 
+  end
   @@anagram_array
 end 
