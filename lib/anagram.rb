@@ -13,7 +13,7 @@ class Anagram
     array.collect do |test|
      if  @word.split.sort == test.split.sort 
       @@anagram_array << test 
-    else 
+   
     
      end 
         
