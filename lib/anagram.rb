@@ -18,7 +18,7 @@ class Anagram
      end 
         
 
-     @@anagram_array
+    
     end 
   end
   
